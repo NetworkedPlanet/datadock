@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="row">
+	<header class="col-md-12">
+		<h1>Linked Data Laboratory Documentation</h1>
+	</header>
+
+	<section class="col-md-5">
+		<header>
+			<h2>Getting Started</h2>
+		</header>
+		
+		<p><a href="getting-started/"/>15 Minutes to get started with the Linked Data Lab</a></p>
+  
+	</section>
+	
+	<section class="col-md-6">
+		<header>
+			<h2>User Guide</h2>
+		</header>
+		<p>The following documents provide more detailed information about working with the Linked Data Laboratory</p>
+		<ul list="toclist">
+		{% for doc in site.user-guide %}
+			<li><a href="{{doc.url}}">{{doc.title}}</a></li>
+		{% endfor %}
+	</section>
+
+</div>

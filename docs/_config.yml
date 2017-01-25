@@ -1,0 +1,15 @@
+# Site settings
+title: Linked Data Laboratory
+description: > 
+  Documentation and help for using the Linked Data Laboratory
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://help.lodlab.com" # the base hostname & protocol for your site
+twitter_username: nwplanet
+github_username:  networkedplanet
+
+# Build settings
+markdown: kramdown 
+
+collections:
+  user-guide:
+    output: true
