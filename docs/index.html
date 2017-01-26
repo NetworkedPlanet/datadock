@@ -22,7 +22,8 @@ layout: default
 		</header>
 		<p>The following documents provide more detailed information about working with the Linked Data Laboratory</p>
 		<ul list="toclist">
-		{% for doc in site.user-guide %}
+		{% assign ordered_docs = site.user-guide | sort: "order" %}
+		{% for doc in ordered_docs %}
 			<li><a href="{{doc.url}}">{{doc.title}}</a></li>
 		{% endfor %}
 	</section>
