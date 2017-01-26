@@ -24,8 +24,11 @@ layout: default
 		<ul list="toclist">
 		{% assign ordered_docs = site.user-guide | sort: "order" %}
 		{% for doc in ordered_docs %}
-			<li><a href="{{doc.url}}">{{doc.title}}</a></li>
+			{% if doc.order > 0 %}
+				<li><a href="{{doc.url}}">{{doc.title}}</a></li>
+			{%endif%}
 		{% endfor %}
+		</ul>
 	</section>
 
 </div>
