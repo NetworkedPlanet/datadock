@@ -16,6 +16,10 @@ in brackets after the repository name. e.g. "datarepo (bob)" indicates a reposit
 We strongly recommend that you create a dedicated new Public repository for the Linked Data Laboratory to use, to ensure that changes made by lodlab
 do not get overwritten by other applications. 
 
+**IMPORTANT**: When creating a new GitHub repository please ensure that the repository is created with some content on the default branch. The
+simplest way to do this, is to check the `Initialize this repository with a README` checkbox when creating the repository through the GitHub site
+or from the GitHub client application. 
+
 Although you can change this setting after importing data into a repository, we recommend that you do not alter it. By altering the setting you 
 effectively disconnect the previous repository from the Linked Data Laboratory so it will never get updated, even if you upload updated versions
 of existing datasets in that repository.

@@ -54,6 +54,10 @@ If you do not yet have a GitHub account, you can [sign-up for GitHub here](https
 Your Linked Data Laboratory data is all stored within a GitHub repository that you own - this gives you complete control over your data at all times.
 We strongly recommend that you create a repository specifically for use with lodlab. Please ensure that this repository is created as a Public repository.
 
+**IMPORTANT**: When creating a new GitHub repository please ensure that the repository is created with some content on the default branch. The
+simplest way to do this, is to check the `Initialize this repository with a README` checkbox when creating the repository through the GitHub site
+or from the GitHub client application.
+
 ## Sign Up for Lodlab
 
 You use your GitHub account credentials to sign up for Lodlab. When you click on the Sign Up link you will be asked to log in to your GitHub account (if 
