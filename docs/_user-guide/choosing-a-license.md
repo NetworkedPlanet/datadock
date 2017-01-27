@@ -4,8 +4,6 @@ layout: page
 order: 80
 ---
 
-# Choosing A License
-
 When choosing a license for your dataset there are three important factors to consider:
 
   1. If you are using some data that was licensed to you, you must honor the terms of that license. Several license such as CC-BY-SA
