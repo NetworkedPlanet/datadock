@@ -6,8 +6,8 @@ order: 5
 
 ## How To Delete A Dataset
 
-To delete a specific dataset from your repository go to your [Dashboard Page](http://manage.lodlab.com/Dashboard), or to your 
-[Dataset List Page](http://manage.lodlab.com/Datasets) and find the entry for the dataset you want to delete and then click on
+To delete a specific dataset from your repository go to your [Dashboard Page](http://manage.datadock.io/dashboard), or to your 
+[Dataset List Page](http://manage.datadock.io/datasets) and find the entry for the dataset you want to delete and then click on
 the `Delete` button next to that dataset. You will be taken to a page where you will be asked to confirm that you really do
 want to delete this dataset. If so, click on the `Confirm Deletion` button. 
 
@@ -15,14 +15,14 @@ When you confirm deletion, this will create a new update job to remove the datas
 jobs, a deletion job is queued and run as a batch process which means that at times of heavy use their may be a delay
 while waiting for a worker process to become available. 
 
-The progress of the deletion is reported on the [Conversion History](http://manage.lodlab.com/Jobs) page.
+The progress of the deletion is reported on the [Conversion History](http://manage.datadock.io/jobs) page.
 
 ## What Is Deleted
 
 When you delete a dataset, the follwing things happen:
 
   - All of the data contained in that dataset is removed from your repository.
-  - The metadata for the dataset is removed from your repository and from the lodlab search engine. 
+  - The metadata for the dataset is removed from your repository and from the DataDock search engine. 
   - All of the static RDF and HTML files in your repository are regenerated to remove any data from the deleted dataset.
   - The CSV file and CSV metadata JSON file for the dataset are removed from your GitHub repository.
   

@@ -4,11 +4,11 @@ layout: page
 order: 50
 ---
 
-This document describes the different datatypes that are supported by the Linked Data Laboratory conversion process.
+This document describes the different datatypes that are supported by the DataDock conversion process.
 
 ## Note On Validation
 
-The current release if the Linked Data Laboratory processing tools do not perform any sort of validation on the content
+The current release of the DataDock processing tools do not perform any sort of validation on the content
 of cells. We plan to implement such validation at a later date - when this validation is implemented, any cells that
 do not meet the validation requirements of the selected datatype for their column will be rejected, resulting in 
 a failed conversion process.

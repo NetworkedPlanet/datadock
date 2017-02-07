@@ -4,7 +4,7 @@ layout: page
 order: 4
 ---
 
-In the current release of the Linked Data Laboratory, all datasets are uniquely identified using
+In the current release of DataDock, all datasets are uniquely identified using
 the file name of the CSV file that was uploaded. To update an existing dataset, simply create
 a CSV file with the same name as the original CSV file (you can see this in the dataset identifier
 displayed in the Dataset List on your Dashboard) and follow the normal procedure for [Adding Data](./adding-data.html).

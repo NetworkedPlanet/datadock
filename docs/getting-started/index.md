@@ -5,10 +5,9 @@ title: Getting Started
 
 # Getting Started
 
-This section will get you started with the Linked Data Laboratory (affectionately
-known as lodlab). 
+This section will get you started with the DataDock.
 
-We will show you how to create Linked Open Data from CSV and have it published to the
+We will show you how to create a free data portal from CSV and have it published to the
 world in just 10 minutes.
 
 ## Choose Your Data
@@ -46,31 +45,31 @@ for making that selection.
 
 If you have already signed up and configured a GitHub repository for your account, you can skip on to Import Your Data.
 
-To use the Linked Data Laboratory you will need a GitHub user account and a public repository that the user account has full read/write access to.
+To use DataDock you will need a GitHub user account and a public repository that the user account has full read/write access to.
 If you do not yet have a GitHub account, you can [sign-up for GitHub here](https://github.com/join/).
 
 ## Create a Repository
 
-Your Linked Data Laboratory data is all stored within a GitHub repository that you own - this gives you complete control over your data at all times.
-We strongly recommend that you create a repository specifically for use with lodlab. Please ensure that this repository is created as a Public repository.
+Your DataDock data is all stored within a GitHub repository that you own - this gives you complete control over your data at all times.
+We strongly recommend that you create a repository specifically for use with DataDock. Please ensure that this repository is created as a Public repository.
 
 **IMPORTANT**: When creating a new GitHub repository please ensure that the repository is created with some content on the default branch. The
 simplest way to do this, is to check the `Initialize this repository with a README` checkbox when creating the repository through the GitHub site
 or from the GitHub client application.
 
-## Sign Up for Lodlab
+## Sign Up for DataDock
 
-You use your GitHub account credentials to sign up for Lodlab. When you click on the Sign Up link you will be asked to log in to your GitHub account (if 
-you are not already logged in) and then grant the Lodlab application access to your account. We use this access to create and update data in the repository
+You use your GitHub account credentials to sign up for DataDock. When you click on the Sign Up link you will be asked to log in to your GitHub account (if 
+you are not already logged in) and then grant the DataDock application access to your account. We use this access to create and update data in the repository
 you choose. After the granting access to the application, you will finally be asked to confirm that you agree to our 
-[Terms of Service](http://manage.lodlab.com/Home/Terms).
+[Terms of Service](http://manage.datadock.io/terms).
 
 ## Configure Your Account Settings
 
 This step only needs to be done once when you sign up a new account.
 
-On the [account settings](http://manage.lodlab.com/Settings) page, first choose the repository you want to use to store your data. As mentioned above,
-we strongly recommend you use a separate GitHub repository for your Linked Data Laboratory datasets. The drop-down list shows all of the Public repositories
+On the [account settings](http://manage.datadock.io/settings) page, first choose the repository you want to use to store your data. As mentioned above,
+we strongly recommend you use a separate GitHub repository for your DataDock datasets. The drop-down list shows all of the Public repositories
 that you have write access to. If necessary you can create a new repository on GitHub and then return to this page (and refresh the page) to select the newly
 created repository.
 
@@ -87,7 +86,7 @@ Once you are happy with these settings, click the Save button to update them.
  
 ## Import Your Data
 
-Go to your [dashboard](http://manage.lodlab.com/Dashboard) page and click [Add Data](http://manage.lodlab.com/Import) to load your data. 
+Go to your [dashboard](http://manage.datadock.io/sashboard) page and click [Add Data](http://manage.datadock.io/import) to load your data. 
 You will be required to select the file containing the CSV data you wish to import. That data will first be loaded locally so that you can
 review it and configure how it will be processed into Linked Data.
 
@@ -99,7 +98,7 @@ to ensure that all the columns in your data are listed and that the correct data
 change the column datatypes using the drop-down lists.
 
 When you are satisfied that everything is described correctly, click on the "Start Import" button. This will upload your CSV data
-and the configuration information to lodlab for processing. Once the data upload is complete your browser will take you to the 
+and the configuration information to DataDock for processing. Once the data upload is complete your browser will take you to the 
 jobs page where you can monitor the progress of your conversion job. Jobs are queued and processed in order by a batch processing system so at times
 of heavy load there may be a wait for a worker to become available. Once your job starts, progress messages will be displayed on the jobs page.
 

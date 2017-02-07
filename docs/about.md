@@ -4,14 +4,14 @@ title: About
 permalink: /about/
 ---
 
-The Linked Data Laboratory is a web application and proxy service that makes it easy to create
+DataDock is a web application and proxy service that makes it easy to create
 and publish Linked Open Data.
 
 The web application takes CSV data and makes it linkable by converting it into RDF. Your data 
 is hosted in a GitHub repository of your choosing and is available to your end users both in
 its original CSV format and in the converted RDF format. 
 
-The proxy service provides a way for your linked data to be served up from the lodlab.com domain.
+The proxy service provides a way for your linked data to be served up from the datadock.io domain.
 Our proxy server takes care of redirects that ensure applications retrieve linked data and users
 see clean, formatted HTML pages.
 

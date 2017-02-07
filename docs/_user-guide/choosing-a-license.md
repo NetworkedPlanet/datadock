@@ -36,7 +36,7 @@ Choosing this option is a balancing act between the increase in open data that c
 derived datasets to also be published as open data; versus the possibility that your data will not be used when
 commercial or privacy reasons prevent the opening up of the derived data.
 
-# Lodlab Dataset Licenses
+# DataDock Dataset Licenses
 
 We currently provide support for 4 different licenses and you can choose a different one of these for each of the datasets you publish.
 

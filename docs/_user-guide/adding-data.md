@@ -4,13 +4,13 @@ layout: page
 order: 3
 ---
 
-This document describes the import interface for adding data to the Linked Data Laboratory.
+This document describes the import interface for adding data to DataDock.
 For a quick guide on how to import data, please read the [Getting Started Guide](../getting_started/).
 
 ## Procedure
 
-The basic procedure for adding data to the Linked Data Laboratory is quite simple. You must be 
-[logged in](./logging-in-and-out.html) to the Linked Data Laboratory portal to perform this action. 
+The basic procedure for adding data to DataDock is quite simple. You must be 
+[logged in](./logging-in-and-out.html) to the DataDock portal to perform this action. 
 You can access the interface to add data either from your Dashboard page by clicking on the `Add Data` button, or by
 selecting the `Add Data` link from the drop-down list in the page header.
 
@@ -67,7 +67,7 @@ If you do choose to select a column, you should ensure that this column meets th
 	
 ### Review and Update Column Datatypes
 
-The Linked Data Laboratory script will attempt to determine what kind of data is provided in each field by examining the first row of data following the column headers.
+The DataDock script will attempt to determine what kind of data is provided in each field by examining the first row of data following the column headers.
 From this it will set an initial datatype for each column - this is the definition of what format of data is held in the column. The supported datatypes are:
 
   - **Text** - for basic text content
@@ -83,7 +83,7 @@ For more details about the different datatypes and how they are processed during
 ### Upload the CSV
 
 When you are happy with the metadata, keywords and datatypes, click on the `Confirm and upload this CSV` button. This will start the upload process that
-sends the CSV file and your metadata and conversion settings to the Linked Data Laboratory server. Once the files are received, you will be taken to the
+sends the CSV file and your metadata and conversion settings to the DataDock server. Once the files are received, you will be taken to the
 `Conversion History` page which will display the new import job at the top of the page. Once the job starts processing, log messages will appear on this
 screen. Once the job is completed, the complete log is available to download as a text file using the link displayed on the Conversion History page.
 
