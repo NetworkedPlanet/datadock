@@ -2,7 +2,9 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="site-title" href="http://datadock.io">
+      <img src="/assets/images/logo/DataDock_Colour_400.png" alt="DataDock" class="logo" />
+    </a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -14,6 +16,7 @@
       </a>
 
       <div class="trigger">
+        <a class="page-link" href="{{ site.baseurl }}/">Documentation Contents</a>
         {% for page in site.pages %}
           {% if page.title %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>

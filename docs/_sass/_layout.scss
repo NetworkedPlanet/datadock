@@ -6,6 +6,7 @@
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
+    padding: 0.5em 0;
     // Positioning context for the mobile navigation icon
     position: relative;
 }
@@ -21,6 +22,11 @@
     &:visited {
         color: $grey-color-dark;
     }
+}
+
+img.logo {
+    height:2em;
+
 }
 
 .site-nav {

@@ -1,5 +1,5 @@
 # Site settings
-title: DataDock
+title: DataDock Documentation
 description: > 
   Documentation and help for using DataDock
 baseurl: "" # the subpath of your site, e.g. /blog/
