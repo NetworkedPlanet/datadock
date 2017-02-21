@@ -20,7 +20,7 @@ for making that selection.
      if you are publishing data about people, the data you publish should be aggregated sufficiently to avoid inadvertently identifying
      individuals; failing that the data must be properly pseudonymised.
 	 
-  1. **DO** ensure that the data you are publishing is either data that you own or data tha has been published under a license that allows
+  1. **DO** ensure that the data you are publishing is either data that you own or data that has been published under a license that allows
      its republication.
 	 
   1. **DO NOT** publish any copyright-infringing material.

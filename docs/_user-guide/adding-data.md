@@ -5,7 +5,7 @@ order: 3
 ---
 
 This document describes the import interface for adding data to DataDock.
-For a quick guide on how to import data, please read the [Getting Started Guide](../getting_started/).
+For a quick guide on how to import data, please read the [Getting Started Guide](../getting-started/).
 
 ## Procedure
 
@@ -16,7 +16,7 @@ selecting the `Add Data` link from the drop-down list in the page header.
 
 ### Select File To Import
 
-The first step in the import process is to choose the file to import. The [Getting Started Guide](../getting_started/)
+The first step in the import process is to choose the file to import. The [Getting Started Guide](../getting-started/)
 has some useful hints on what the content of this file should be, but the most important restrictions are:
 
   - It must be a CSV file using commas (,) as the separator
