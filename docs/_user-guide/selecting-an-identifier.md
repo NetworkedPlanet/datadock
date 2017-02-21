@@ -4,9 +4,7 @@ layout: page
 order: 85
 ---
 
-During the DataDock conversion process, each record in your spreadsheet is turned into an entity ready for use on the Web of Data. DataDock produces a page for every identity so that each entity in your dataset is accessible on the web.
-
-As everything on the Web of Data has an address, DataDock produces an **identifier** using the row number of the record. If you wish to use a different column for use in the identifier, you can set this before you upload the data.
+During the DataDock conversion process, each record in your spreadsheet is turned into an entity ready for use on the Web of Data. As everything on the Web of Data has an address, DataDock produces an **identifier** using the row number of the record. If you wish to use a different column for use in the identifier, you can set this during the upload process.
 
 ## Example
 
