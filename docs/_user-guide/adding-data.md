@@ -21,6 +21,7 @@ has some useful hints on what the content of this file should be, but the most i
 
   - It must be a CSV file using commas (,) as the separator
   - It must be no more than 4MB in size
+  - The file name must be no longer than 40 characters
   
 To select the file to import click on the Browse button and use the dialog that appears to find and select the CSV file to import.
 Once you select the file to import, the content is read locally (it is not uploaded at this point), and the screen changes

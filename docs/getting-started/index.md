@@ -39,7 +39,7 @@ for making that selection.
      example, don't use "Location" in one spreadsheet and "Place" in another if both are really the same "Location" property.
 	 
   1. Save the cleaned up data as CSV. Ensure that you use commas (,) as the separator and not some other character. Please also save your
-     CSV in UTF-8 format.
+     CSV in UTF-8 format. There is a 40 character limit on the length of the file name, and files are limited to a maximum 4MB in size.
    
 ## Sign Up for GitHub
 
