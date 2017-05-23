@@ -17,7 +17,11 @@ If you have a column full of values that you would like to be used in the identi
   
  `http://datadock.io/GitHubUser/DemoRepository/id/resource/company_id/1`
  
- The values from the column you choose for an identifier does not have to be numerical, but they **must be unique to that dataset**. It's also important that there are **no empty values** in the column you have selected to be in your identifiers. 
+## Selecting an identifier
+ 
+ After you have selected a file for import, the identifier can be set on the "Advanced" tab. The drop down list shows all columns from your data that could be used as the identifier. 
+ 
+ The values from the column you choose for an identifier do not have to be numerical, but they **must be unique to that dataset**. It's also important that there are **no empty values** in the column you have selected to be in your identifiers. 
  
 ## Important Note
  
