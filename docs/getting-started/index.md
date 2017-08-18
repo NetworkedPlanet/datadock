@@ -45,52 +45,56 @@ for making that selection.
 
 If you have already signed up and configured a GitHub repository for your account, you can skip on to Import Your Data.
 
-To use DataDock you will need a GitHub user account and at least one public repository that the user account has full read/write access to.
+To use DataDock you will need a GitHub user account and a public repository that the user account has full read/write access to.
 If you do not yet have a GitHub account, you can [sign-up for GitHub here](https://github.com/join/).
 
 ## Create a Repository
 
-Your DataDock data is all stored in public GitHub repositories that you have write access to - this gives you complete control over your data at all times.
+Your DataDock data is all stored within a GitHub repository that you own - this gives you complete control over your data at all times.
+We strongly recommend that you create a repository specifically for use with DataDock. Please ensure that this repository is created as a Public repository.
 
-We strongly recommend that you create repositories specifically for DataDock data, rather than mixing the use of the GitHub repository with other storage.
 
 ## Sign Up for DataDock
 
 You use your GitHub account credentials to sign up for DataDock. When you click on the Sign Up link you will be asked to log in to your GitHub account (if 
-you are not already logged in) and then grant the DataDock application access to your account. We use this access to create and update data in your target repositories. After the granting access to the application, you will finally be asked to confirm that you agree to our 
+you are not already logged in) and then grant the DataDock application access to your account. We use this access to create and update data in the repository
+you choose. After the granting access to the application, you will finally be asked to confirm that you agree to our 
 [Terms of Service](http://manage.datadock.io/terms).
 
-## Your dashboard
+## Configure Your Account Settings
 
-You can access your dashboard at anytime either by navigating to [/dashboard](http://manage.datadock.io/dashboard) directly or using the menu in at the top of the page.
+This step only needs to be done once when you sign up a new account.
 
-The dashboard menu shows a summary for your GitHub account, the GitHub organisations that you have access to, and an "Everything" level that shows all DataDock data published to both your own GitHub and your organisations.
+On the [account settings](http://manage.datadock.io/settings) page, first choose the repository you want to use to store your data. As mentioned above,
+we strongly recommend you use a separate GitHub repository for your DataDock datasets. The drop-down list shows all of the Public repositories
+that you have write access to. If necessary you can create a new repository on GitHub and then return to this page (and refresh the page) to select the newly
+created repository.
+
+You should give your repository a title and description - these are separate from the name and description on GitHub and are used in the metadata published for
+your data repository.
+
+You should select a default language and timezone. At the moment, the value you choose here is not used, but we plan in future to use these to improve the 
+detection of and generation of date/time values as well as to output multi-lingual data.
+
+Finally you may complete any or all of the fields of publisher information, choosing whether you publish as an individual or on behalf of an organisation. 
+Please be aware that this information will be public and will be included in the metadata for each dataset you publish.
+
+Once you are happy with these settings, click the Save button to update them.
  
 ## Import Your Data
 
-Go to [Add Data](http://manage.datadock.io/import) to load your data. 
-You will be required to select the file containing the CSV data you wish to import. That data will first be loaded  so that you can review it and configure how it will be processed before publishing.
-
-### Dataset Details
+Go to your [dashboard](http://manage.datadock.io/sashboard) page and click [Add Data](http://manage.datadock.io/import) to load your data. 
+You will be required to select the file containing the CSV data you wish to import. That data will first be loaded locally so that you can
+review it and configure how it will be processed into Linked Data.
 
 First, update the title of the dataset (it will default to the name of the file you selected); add a description and select a license. 
 We recommend using the CC-0 for friction-free open data). You may also want to tag your data with one or more tags that can help other users to find it.
-
-### Column Definitions
 
 The import process will attempt to determine the correct datatype for each column in your data. You should check the columns listed
 to ensure that all the columns in your data are listed and that the correct datatype has been selected. If necessary you can 
 change the column datatypes using the drop-down lists.
 
-### Advanced 
-
-If you are comfortable with Linked Data, you can selected a specific column to be used in each record's identifier, and also customise the property URLs (also known as predicates) used. 
-
-For those new to Linked Data, it is recommended to leave the default values in place.
-
-When you are satisfied that everything is described correctly, choose whether you wish the dataset to be visible on the DataDock homepage and search results. Then click on the "**Publish**" button. 
-
-This will upload your CSV data
+When you are satisfied that everything is described correctly, click on the "Start Import" button. This will upload your CSV data
 and the configuration information to DataDock for processing. Once the data upload is complete your browser will take you to the 
 jobs page where you can monitor the progress of your conversion job. Jobs are queued and processed in order by a batch processing system so at times
 of heavy load there may be a wait for a worker to become available. Once your job starts, progress messages will be displayed on the jobs page.

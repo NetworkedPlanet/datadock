@@ -10,5 +10,3 @@ to ask a question of one of the team, the best place to post your question is on
 
 We welcome all comments and feedback, including suggestions for improvements and extensions
 to help you work more easily with the data you want to publish.
-
-[&lArr; Back to User Guide](/user-guide/)

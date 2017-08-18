@@ -1,7 +1,7 @@
 ---
 title: Logging In and Out
 layout: page
-order: 20
+order: 1
 ---
 
 Access to your DataDock account is authenticated using your GitHub login. You must be logged in to your GitHub account
@@ -20,5 +20,3 @@ from them that authenticates you as the logged in user.
 
 To log out from the management pages, simply click the `Log Off` link at the top of the page. Please note that this only 
 logs you off from DataDock - you will remain logged in to your GitHub user account.
-
-[&lArr; Back to User Guide](/user-guide/)
