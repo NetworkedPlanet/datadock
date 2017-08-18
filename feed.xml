@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DataDock Documentation</title>
+    <description>Documentation and help for using DataDock
+</description>
+    <link>http://help.datadock.io/</link>
+    <atom:link href="http://help.datadock.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 18 Aug 2017 17:25:26 +0100</pubDate>
+    <lastBuildDate>Fri, 18 Aug 2017 17:25:26 +0100</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+  </channel>
+</rss>
