@@ -16,9 +16,13 @@
       </a>
 
       <div class="trigger">
-        <a class="page-link" href="{{ site.baseurl }}/datadock/">Documentation Contents</a>
-        <a class="page-link" href="{{ site.baseurl }}/datadock/about">About</a>
-        <a class="page-link" href="{{site.baseurl}}/datadock/user-guide/">User Guide</a>
+        <a class="page-link" href="{{ site.baseurl }}/">Documentation Contents</a>
+        {% for page in site.pages %}
+          {% if page.title %}
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% endif %}
+        {% endfor %}
+        <a class="page-link" href="{{site.baseurl}}/user-guide/">User Guide</a>
       </div>
     </nav>
 
