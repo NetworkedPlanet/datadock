@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="row">
+	<header class="col-md-12">
+		<h1>DataDock Documentation</h1>
+	</header>
+
+	<section class="col-md-5">
+		<header>
+			<h2>Getting Started</h2>
+		</header>
+		
+		<p><a href="getting-started/"/>15 Minutes to get started with DataDock</a></p>
+  
+	</section>
+	
+	<section class="col-md-6">
+		<header>
+			<h2>User Guide</h2>
+		</header>
+		<p>The following documents provide more detailed information about working with DataDock</p>
+		<ul list="toclist">
+		{% assign ordered_docs = site.user-guide | sort: "order" %}
+		{% for doc in ordered_docs %}
+			{% if doc.order > 0 %}
+				<li><a href="{{doc.url | prepend: site.baseurl }}">{{doc.title}}</a></li>
+			{%endif%}
+		{% endfor %}
+		</ul>
+	</section>
+
+</div>

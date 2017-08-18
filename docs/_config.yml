@@ -1,0 +1,15 @@
+# Site settings
+title: DataDock Documentation
+description: > 
+  Documentation and help for using DataDock
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://help.datadock.io" # the base hostname & protocol for your site
+twitter_username: nwplanet
+github_username:  networkedplanet
+
+# Build settings
+markdown: kramdown 
+
+collections:
+  user-guide:
+    output: true
