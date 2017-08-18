@@ -1,28 +1,26 @@
 ---
 title: Deleting Your Account
 layout: page
-order: 2
+order: 70
 ---
 
 ## How To Delete Your Account
 
-To delete your account you must first [log in](http://manage.datadock.io/account/login) and then go to your 
-[Account Settings](http://manage.datadock.io/settings) page. A link to the Account Settings page can be found 
-using the drop-down navigation on your user name after you log in.
+To delete your account you must first [log in](http://manage.datadock.io/account/login) and then use the user menu drop down (top right) to navigate to your `Account Settings`. 
 
 On the Account Settings page, click on the Delete Account link located at the bottom of the page.
 You must check the box to confirm that you wish to delete your account permanently and then click
 on the `Delete My Account` button to proceed.
 
 Once your account on DataDock is deleted you may also want to revoke the GitHub access that the application has.
-To do this, log in to your GitHub account and go to your [account settings](https://github.com/settings/applications) page. 
-Click on `Authorized Applications` on the left-hand side and find the application named `DataDock` and click on the `Revoke` button next to that application.
+To do this, log in to your GitHub account and go to your [GitHub account settings](https://github.com/settings/applications) page. 
+Click on `Authorized Applications` on the left-hand side and find the application named `DataDock Management Portal` and click on the `Revoke` button next to that application.
 
 ## What Is Deleted ?
 
 When you delete your DataDock account we remove:
 
-  - Your [account settings](./account-settings.html)
+  - Your user settings
   - The search metadata we hold about the datasets in your repository
   - The data conversion history records for your repository
   
@@ -45,3 +43,5 @@ portal.
 
 If you want to delete one or more datasets from your repository you can do this without deleting your account. For more information
 please refer to [Deleting Data](./deleting-data.html).
+
+[&lArr; Back to User Guide](/user-guide/)

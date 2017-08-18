@@ -1,7 +1,7 @@
 ---
 title: Updating Data
 layout: page
-order: 4
+order: 50
 ---
 
 In the current release of DataDock, all datasets are uniquely identified using
@@ -16,3 +16,5 @@ just new additions.
 
 We plan to provide more update features in future releases of the tool. Watch this space, or [get in touch](./getting-help.html)
 to let us know your thoughts or requirements for an update procedure.
+
+[&lArr; Back to User Guide](/user-guide/)

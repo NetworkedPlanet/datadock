@@ -1,7 +1,7 @@
 ---
 title: Datatypes
 layout: page
-order: 50
+order: 100
 ---
 
 This document describes the different datatypes that are supported by the DataDock conversion process.
@@ -74,3 +74,4 @@ Use for columns that contain numeric data with no decimal part. Both positive an
 Content will be validated for conformance using the usual numeric separators for your chosen default language.
 
 
+[&lArr; Back to User Guide](/user-guide/)

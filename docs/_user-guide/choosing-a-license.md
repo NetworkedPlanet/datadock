@@ -1,7 +1,7 @@
 ---
 title: Choosing A License For Your Data
 layout: page
-order: 80
+order: 105
 ---
 
 When choosing a license for your dataset there are three important factors to consider:
@@ -62,3 +62,5 @@ We currently provide support for 6 different licenses and you can choose a diffe
 We recommend using CC-0 whenever possible as this provides the most freedom and places the least restrictions on the use and reuse of your data. However
 you should ensure that you comply with the licensing terms of any source data you have used to create your data as well as with the policies of your
 organisation.
+
+[&lArr; Back to User Guide](/user-guide/)
