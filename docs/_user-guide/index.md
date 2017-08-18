@@ -19,7 +19,7 @@ order: 0
 	{% assign ordered_docs = site.user-guide | sort: "order" %}
 	{% for doc in ordered_docs %}
 		{% if doc.order > 99 and doc.order < 201 %}
-			<li><a href="{{ doc.url  | prepend: site.baseurl }}">{{doc.title}}</a></li>
+			<li><a href="{{ doc.url  | prepend: http://networkedplanet.com/datadock/ }}">{{doc.title}}</a></li>
 		{%endif%}
 	{% endfor %}
 </ul>
