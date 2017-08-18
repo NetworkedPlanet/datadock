@@ -42,4 +42,4 @@ Displays all job histories relevant to that context. Scrolling down the page loa
 
 Add the publisher details for a particular context. It is recommended that you set the publisher at an owner level (i.e. the user profile / organization) at a minimum, and set the publisher at a repository level if you deem it necessary (e.g. you are publishing data on behalf of different publishers for different repositories). 
 
-[&lArr; Back to User Guide](/user-guide/)
+[&lArr; Back to User Guide](/datadock/user-guide/)

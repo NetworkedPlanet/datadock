@@ -74,4 +74,4 @@ Use for columns that contain numeric data with no decimal part. Both positive an
 Content will be validated for conformance using the usual numeric separators for your chosen default language.
 
 
-[&lArr; Back to User Guide](/user-guide/)
+[&lArr; Back to User Guide](/datadock/user-guide/)

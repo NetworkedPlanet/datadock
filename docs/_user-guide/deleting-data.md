@@ -30,4 +30,4 @@ When you delete a dataset, the follwing things happen:
 We do not currently delete the GitHub releases that were made for this dataset. If you wish, you can manually delete these
 releases through the GitHub user interface.
 
-[&lArr; Back to User Guide](/user-guide/)
+[&lArr; Back to User Guide](/datadock/user-guide/)

@@ -13,4 +13,4 @@ The first time you sign in to DataDock with your GitHub account you'll need to g
 After the granting access to the application, you will finally be asked to confirm that you agree to our 
 [Terms of Service](http://manage.datadock.io/terms), which completes the Sign Up process.
 
-[&lArr; Back to User Guide](/user-guide/)
+[&lArr; Back to User Guide](/datadock/user-guide/)

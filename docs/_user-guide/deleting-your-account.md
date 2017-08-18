@@ -44,4 +44,4 @@ portal.
 If you want to delete one or more datasets from your repository you can do this without deleting your account. For more information
 please refer to [Deleting Data](./deleting-data.html).
 
-[&lArr; Back to User Guide](/user-guide/)
+[&lArr; Back to User Guide](/datadock/user-guide/)

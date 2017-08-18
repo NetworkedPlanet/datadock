@@ -108,6 +108,6 @@ If the conversion process completes successfully, at the end of the process your
 to your Dashboard page where you should see the new dataset shown at the top of the dataset list. Click on the `Explore` button to go to the dataset metadata
 page from where you can start to explore some of the data in the dataset.
 
-[&lArr; Back to User Guide](/user-guide/)
+[&lArr; Back to User Guide](/datadock/user-guide/)
 
 

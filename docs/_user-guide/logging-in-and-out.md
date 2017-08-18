@@ -21,4 +21,4 @@ from them that authenticates you as the logged in user.
 To log out from the management pages, simply click the `Log Off` link at the top of the page. Please note that this only 
 logs you off from DataDock - you will remain logged in to your GitHub user account.
 
-[&lArr; Back to User Guide](/user-guide/)
+[&lArr; Back to User Guide](/datadock/user-guide/)

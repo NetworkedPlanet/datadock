@@ -63,4 +63,4 @@ We recommend using CC-0 whenever possible as this provides the most freedom and 
 you should ensure that you comply with the licensing terms of any source data you have used to create your data as well as with the policies of your
 organisation.
 
-[&lArr; Back to User Guide](/user-guide/)
+[&lArr; Back to User Guide](/datadock/user-guide/)

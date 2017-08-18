@@ -18,6 +18,6 @@ If you are comfortable with the concept of LOD vocabularies, you can edit these 
 * [W3C Linked Data Publishing Best Practises - Vocabulary Checklist](https://www.w3.org/TR/ld-bp/#vocabulary-checklist)
 * [Linked Open Vocabularies - Search for published LOD vocabularies](http://lov.okfn.org/)
 
-[&lArr; Back to User Guide](/user-guide/)
+[&lArr; Back to User Guide](/datadock/user-guide/)
 
 

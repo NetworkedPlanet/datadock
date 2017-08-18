@@ -31,4 +31,4 @@ If you have a column full of values that you would like to be used in the identi
  
  Future features of DataDock will include the ability to upload to multiple repositories, and also allow advanced editing of the identifier. For now, make sure that your ID columns are **well named** for clarity.
  
- [&lArr; Back to User Guide](/user-guide/)
+ [&lArr; Back to User Guide](/datadock/user-guide/)
