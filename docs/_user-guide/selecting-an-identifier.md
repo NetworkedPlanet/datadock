@@ -1,7 +1,7 @@
 ---
 title: Selecting An Identifier
 layout: page
-order: 85
+order: 110
 ---
 
 During the DataDock conversion process, each record in your spreadsheet is turned into an entity ready for use on the Web of Data. As everything on the Web of Data has an address, DataDock produces an **identifier** using the row number of the record. If you wish to use a different column for use in the identifier, you can set this during the upload process.
@@ -30,3 +30,5 @@ If you have a column full of values that you would like to be used in the identi
  This means you must be careful if selecting a generic identifier such as "ID", as you may well use that same identifier with an import of data that is about different subjects.
  
  Future features of DataDock will include the ability to upload to multiple repositories, and also allow advanced editing of the identifier. For now, make sure that your ID columns are **well named** for clarity.
+ 
+ [&lArr; Back to User Guide](/user-guide/)

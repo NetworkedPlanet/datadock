@@ -1,10 +1,10 @@
 ---
-title: Vocabulary Terms
+title: Property URLs
 layout: page
-order: 90
+order: 115
 ---
 
-In order to utilise the full potential of the Web of Data, each column of data is defined using URIs rather than plain text. DataDock automatically generates these URIs based on the column headings from your source data file.
+In order to utilise the full potential of the Web of Data, each column of data is defined using URIs rather than plain text. DataDock automatically generates these URIs (known as **predicates** in Linked Data) based on the column headings from your source data file.
 
 On the advanced tab during the import process, you can change these URIs to other values and make use of your own organisation's vocabularies, taxonomies, ontologies and/or data models, or your can make use of those published by others as Linked Open Data (LOD) vocabularies. 
  
@@ -17,5 +17,7 @@ If you are comfortable with the concept of LOD vocabularies, you can edit these 
 * [Linked Data 101 - What's a predicate?](http://networkedplanet.com/blog/2016/02/17/linked-data-101-predicates.html)
 * [W3C Linked Data Publishing Best Practises - Vocabulary Checklist](https://www.w3.org/TR/ld-bp/#vocabulary-checklist)
 * [Linked Open Vocabularies - Search for published LOD vocabularies](http://lov.okfn.org/)
+
+[&lArr; Back to User Guide](/user-guide/)
 
 
